@@ -6,7 +6,7 @@
 ![image](https://github.com/cekiasoo/Leakcanary-eclipse/raw/master/screenshots/2.png)<br/>
 ### （二）在 AndroidManifest 中配置
 > 打开当前的 AndroidManifest 添加下面的代码。
-··· xml
+
         <!-- Leakcanary config start -->
         <service
             android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
@@ -60,3 +60,21 @@ public class MyApplication extends Application {
 	}
 }
 ```
+## 三、感谢
+感谢 [Square](https://github.com/square) 公司 提供的 [Leakcanary](https://github.com/square/leakcanary)。
+## 四、Open source licenses
+> **Square-LeakCanary:**<br/>
+
+Copyright 2015 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
